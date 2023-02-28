@@ -15,5 +15,6 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {"CxQ\\Toolbox\\": "src/toolbox/" }
-  }
+  },
+  "optimize-autoloader": true
 }
