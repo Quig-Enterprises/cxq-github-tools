@@ -1,7 +1,7 @@
 <?php
 namespace CxQ;
-if(!class_exists('dBug')) require_once('dBug.class.php');
-class dBug extends \dBug{
+if(!class_exists('dBug')) require_once('dBug.php');
+class dBug2 extends \dBug{
     function __construct($var,$forceType="",$bCollapsed=false){
         $backtrace=debug_backtrace();
         $fileName=basename($backtrace[0]['file']);
