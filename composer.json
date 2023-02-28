@@ -14,6 +14,9 @@
   ],
   "minimum-stability": "dev",
   "autoload": {
-    "psr-4": {"CxQ\\Toolbox\\": "src/toolbox/" }
+    "psr-4": { "CxQ\\": "src/"
+              ,"CxQ\\Toolbox\\": "src/toolbox/"
+              ,"CxQ\\Toolbox\\Data\\": "src/toolbox/data/"    
+             }
   }
 }
