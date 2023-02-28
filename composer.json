@@ -1,6 +1,6 @@
 {
-  "name": "quig-enterprises/cxq-github-tools",
-  "description": "Allows WordPress plugins to interact with Github",
+  "name": "quig-enterprises/cxq-toolbox",
+  "description": "Adds a variety of useful functions",
   "type": "library",
   "require": {
     "php": ">=7.4"
