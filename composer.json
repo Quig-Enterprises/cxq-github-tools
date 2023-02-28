@@ -5,6 +5,7 @@
   "require": {
     "php": ">=7.4"
   },
+  "license": "proprietary",
   "authors": [ 
     {
       "name": "Quig Enterprises, LLC",
