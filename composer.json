@@ -11,5 +11,6 @@
       "name": "Quig Enterprises, LLC",
       "homepage": "https://quigs.com"
     }
-  ]
+  ],
+  "minimum-stability": "dev"
 }
