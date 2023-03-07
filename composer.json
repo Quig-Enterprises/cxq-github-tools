@@ -16,7 +16,8 @@
   "autoload": {
     "psr-4": { "CxQ\\": "src/"
               ,"CxQ\\Toolbox\\": "src/toolbox/"
-              ,"CxQ\\Toolbox\\Data\\": "src/toolbox/data/"    
+              ,"CxQ\\Toolbox\\Data\\": "src/toolbox/data/"   
+              ,"CxQ\\Toolbox\\Data\\Presentation\\": "src/toolbox/data/presentation/"   
              }
   }
 }

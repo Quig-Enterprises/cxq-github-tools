@@ -101,7 +101,9 @@ class DataTable{
     public function getNumberOfColumns(){
         return count($this->columns);
     }
-    //getNumberOfRows()	Number	Returns the number of rows in the table.
+     public function getNumberOfRows(){//	Number	Returns the number of rows in the table.
+          return count($this->rows);
+     }
     //getProperties(rowIndex, columnIndex)	Object  Returns a map of all the properties for the specified cell. Note that the properties object is returned by reference, so changing values in the retrieved object changes them in the DataTable.
     //getProperty(rowIndex, columnIndex, name)	Auto    Returns the value of a named property, or null if no such property is set for the specified cell. The return type varies, depending on the property.
     //getRowProperties(rowIndex)	Object       Returns a map of all properties for the specified row. Note that the properties object is returned by reference, so changing values in the retrieved object changes them in the DataTable.
